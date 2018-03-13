@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tweet Tweet</title>
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		#nav {
+			background-color: white;
+		}
+
+		#left-sidebar {
+			background-color: #b7e3f4;
+		}
+
+		#center {
+			background-color: white;
+		}
+
+		#right-sidebar {
+			background-color: #b7e3f4;
+		}
+
+		#footer {
+			background-color: white;
+		}
+
+		.post-image {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+		}
+
+		.post {
+			border-bottom: 3px solid #b7e3f4;
+		}
+
+		#navbar-ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.navbar-li {
+			display: inline-block;
+			padding-right: 30px;
+			padding-left: 30px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			line-height: 30px;
+		}
+
+		.fa-camera-retro{
+			color: #9b19ff;
+			font-size: 30px;
+		}
+
+		#company-logo {
+			color:#9b19ff;
+			font-family: Nueva Std;
+		}
+		.cover-photo {
+			background-image: url(https://img.buzzfeed.com/buzzfeed-static/static/2017-11/30/14/enhanced/buzzfeed-prod-fastlane-03/original-10522-1512068890-10.jpg?crop=750:392;0,108);
+			height: 300px;
+
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div id="nav" class="row">
+			<ul id="navbar-ul">
+			<li class="navbar-li"><i class="fas fa-camera-retro"></i> <span id="company-logo">Tweet Tweet</span></li>
+			<li class="navbar-li"><a href="https://google.com">Home</a></li>
+			<li class="navbar-li"><a href="https://google.com">Profile</a></li>
+			<li class="navbar-li"><a href="https://google.com">Notifications</a></li>
+			<li class="navbar-li"><a href="https://google.com">Search</a></li>
+			</ul>
+		</div>
+		<div class="row cover-photo">
+		</div>	
+
+		<div id="main-content" class="row">
+			<div id="left-sidebar" class="col-3">
+			<p>this is the left side bar</p>
+			</div>
+				
+			<div id="center" class="col-6">
+				<div class="post row">
+					<div class="col- img-side">
+						<img class="post-image" src="https://i.ytimg.com/vi/cWCw_37dE_o/maxresdefault.jpg">
+					</div>
+					<div class="col-7 text-side">
+						<p>Hormone Monster<i class="fas fa-check"></i> @MauricetheHM-Mar 10</p>
+						<p>I may be drunk, but in the morning I will be sober and you will still be ugly</p>
+					</div>
+				</div>
+
+				<div class="post row">
+					<div class="col-img-side">
+						<img class="post-image" src="https://vignette.wikia.nocookie.net/netflix-big-mouth/images/4/41/NickProfilePic2.jpg/revision/latest?cb=20171211024642">
+					</div>
+					<div class="col-7 text-side">
+						<p>Nick<i class="fas fa-check"></i> @NickBirch-Mar 4</p>
+						<p>Took the best 8 hour nap #getlikeme</p>
+					</div>
+				</div>
+
+				<div class="post row">
+					<div class="col- img-side">
+						<img class="post-image" src="https://vignette.wikia.nocookie.net/netflix-big-mouth/images/3/3a/AndrewProfilePic.png/revision/latest?cb=20171122003645">
+					</div>
+					<div class="col-7 text-side">
+						<p>Andrew Glouberman <i class="fas fa-check"></i> @AndrewG-Feb 27</p>
+						<p>Isn't it weird we have a little voice in our heads? Like the one you're using to read this</p>
+					</div>
+				</div>
+			</div>	
+			<div id="right-sidebar" class="col-3">
+				<p>This is the right side bar</p>
+			</div>
+			
+			</div>
+		</div>
+
+		<div id="footer" class="row">
+			<p>This is the footer</p>
+		</div>
+	</div>
+</body>
+</html>
